@@ -125,3 +125,35 @@ h2 {
   color: var(--branco-principal);
   font-size: 32px;
 }
+
+.rodape {
+  text-align: center; /*Usado para alinhar os elementos da imagem. O classe pai manda no alinhamento da classe filho*/
+  margin: 5em 3em;
+}
+.rodape__logo {
+  padding: 2em;
+}
+
+.rodape__lista {
+  display: flex;
+  justify-content: center;
+}
+
+.lista__link {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0 2em;
+}
+.lista__link a {
+  text-decoration: none;
+  color: var(--branco-principal);
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+}
+.rodape__texto {
+  font-family: var(--fonte-principal);
+  color: var(--cinza-secundario);
+  font-size: 14px;
+  text-align: center;
+  padding: 1em;
+}
